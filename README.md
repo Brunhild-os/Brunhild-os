@@ -1,131 +1,129 @@
-<h1 align="center">
-  Dive into a new Pentesting Experience with<br>
-Athena OS
-</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-CD8335">
-  <img src="https://badgen.net/github/release/Athena-OS/athena">
-  <a href="https://sourceforge.net/projects/athena-iso/files/latest/download"><img alt="Download Athena OS" src="https://img.shields.io/sourceforge/dt/athena-iso?style=flat&logo=sourceforge&label=SourceForge" ></a>
-  <a href="https://github.com/Athena-OS/athena/releases"><img alt="Download Athena OS" src="https://img.shields.io/github/downloads/Athena-OS/athena/total?style=flat&logo=github&label=GitHub"></a>
-  <img src="https://badgen.net/github/stars/Athena-OS/athena">
-  <img src="https://img.shields.io/github/issues-raw/Athena-OS/athena">
-  <img src="https://img.shields.io/github/issues-closed-raw/Athena-OS/athena">
-  <img src="https://img.shields.io/github/license/Athena-OS/athena">
-</p>
 
-<p align="center">
-  <a href="https://www.instagram.com/athenaos_sec">
-    <img src="https://img.shields.io/badge/Follow%20us%20on%20Instagram-Ya?logo=instagram&logoColor=white&color=%23e95950&style=['for-the-badge']&url=https://www.instagram.com/athenaos_sec">
-    </a>
-  <a href="https://discord.gg/AHXqyJHhGc">
-    <img src="https://img.shields.io/badge/Join%20on%20Discord-Ya?logo=discord&logoColor=white&color=%235865F2&style=['for-the-badge']&url=https://discord.gg/AHXqyJHhGc">
-  </a>
-</p>
+---
 
-<!--<p align="center">
-  <img src="https://user-images.githubusercontent.com/83867734/174499581-e0f74d41-36ce-4c01-af0d-6ecd98841a64.png" data-canonical-src="https://user-images.githubusercontent.com/83867734/174499581-e0f74d41-36ce-4c01-af0d-6ecd98841a64.png" width="600" height="496" />
-</p>-->
-![image](https://github.com/Athena-OS/athena/assets/83867734/b130dd25-5e7f-4cc8-bc16-6f384b4210f3)
+# Brunhild-OS
 
-<!--
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/83867734/192104268-ddfd4b2e-d79e-44e9-a0f7-3d627829d894.png" data-canonical-src="https://user-images.githubusercontent.com/83867734/192104268-ddfd4b2e-d79e-44e9-a0f7-3d627829d894.png" width="400" height="422" />
-</p>
--->
-<!--
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/83867734/192106351-96cc40a5-994c-4068-9092-f05c69e686c6.png" data-canonical-src="https://user-images.githubusercontent.com/83867734/192106351-96cc40a5-994c-4068-9092-f05c69e686c6.png" width="400" height="400" />
-</p>
--->
+![Brunhild-OS Logo](path_to_logo_image)
 
-<h3 align="center">
-  🏅Born for InfoSec Professionals, Bug Bounty Hunters, Passionate Students and Spicy Hackers🏅
-</h3>
+Brunhild-OS is a robust, Arch-based Linux distribution designed specifically for penetration testing and security research. What sets Brunhild-OS apart is its comprehensive routing of all traffic through the Tor network, ensuring your activities remain anonymous and secure. Additionally, it comes with GPT-2 pre-installed for various natural language processing tasks.
 
-<h3 align="center">
-  💞
-  <a href="https://github.com/Athena-OS/athena">
-  Get Athena OS Now!
-    </a>
-  💞
-</h3>
-<br>
-<p align="center">
-  <a href="https://hub.docker.com/u/athenaos"><img src="https://user-images.githubusercontent.com/83867734/224526828-b4f2a470-d539-494d-9ac0-34568a75af3a.png" width="150" height="128" /></a>
-</p>
-<h5 align="center">
-Click Docker icon above to explore Athena OS Docker containers!
-</h5>
-<br>
-<p align="center">
-  <a href="https://apps.microsoft.com/store/detail/athena-os/9N1M7Q4F1KQF?hl=en-us&gl=us"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" width="250" height="90" /></a>
-</p>
-<h5 align="center">
-Click the icon above to explore Athena OS WSL in Microsoft Store App!
-</h5>
+**Note: Brunhild-OS is currently in development.**
 
-## Hephaestus
-**Hephaestus** is the Athena OS Continuous Integration/Continuous Delivery Builder to improve the integration and delivery of the packages.
+## Table of Contents
 
-As a container, it can be run in every platform supporting Docker or Podman. It is used to automate the building and delivery of Athena OS packages and for package debugging.
-```
-**===========================================================**
-||     __  __           __                    __             ||
-||    / / / /__  ____  / /_  ____ ____  _____/ /___  _______ ||
-||   / /_/ / _ \/ __ \/ __ \/ __ `/ _ \/ ___/ __/ / / / ___/ ||
-||  / __  /  __/ /_/ / / / / /_/ /  __(__  ) /_/ /_/ (__  )  ||
-|| /_/ /_/\___/ .___/_/ /_/\__,_/\___/____/\__/\__,_/____/   ||
-||            /_/                                            ||
-**===========================================================**
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-The Athena OS CI/CD Builder
+## Features
 
-Usage: ./hephaestus [-a] [-c <ncores>] [-d] [-r] [-s] [-u] [-w] [-x] [package1 package2 ...]
+- **Pre-installed Penetration Testing Tools:** Includes a wide range of tools for network analysis, vulnerability scanning, exploitation, and more.
+- **Tor Integration:** All network traffic is routed through the Tor network by default for enhanced anonymity.
+- **Arch-Based:** Built on Arch Linux, providing a lightweight and highly customizable environment.
+- **GPT-2 Integration:** Comes with GPT-2 pre-installed for advanced natural language processing tasks.
+- **Live Distribution:** Run Brunhild-OS directly from a USB drive without installing it on your system.
+- **User-Friendly Interface:** An intuitive interface that makes it easy for both beginners and advanced users to navigate.
+- **Rolling Releases:** Continuous updates ensure you always have the latest software.
+- **Customizable:** Highly customizable to fit the specific needs of your penetration testing tasks.
 
-Options:
--a     Build all packages.
--c     Set number of cores for building (maximum 4).
--d     Skip all dependency checks.
--h     Print this Help.
--r     Upload packages to the specified repository server. Use '-e SSH_SEC=' to specify the SSH secret object and '-e REPOSITORY_SERVER=' to define the target repository server as container environment variable arguments.
--s     Sign packages. Use '-e GPG_SEC' to specify the signing key secret object as container environment variable argument.
--u     Update the package repository database.
--w     Overwrite existing packages in the output directory.
--x     Search for the fastest mirrors.
-```
-It builds the specified packages or all the repository packages if no package names are provided.
+## Installation
 
-First to proceed, it is important to set the secret objects of GPG and SSH keys if needed. To do it in a secure manner:
-1. create a file named `key-sec-file`, write the secret inside it and save it;
-2. create a file named `ssh-sec-file`, write the secret inside it and save it.
+### Requirements
 
-Then, run:
-```
-podman secret create key-sec key-sec-file
-podman secret create ssh-sec ssh-sec-file
-```
-Finally, remove the file storing the secrets because no needed anymore:
-```
-rm key-sec-file ssh-sec-file
+- A 64-bit processor
+- Minimum 2 GB RAM (4 GB recommended)
+- Minimum 20 GB hard disk space (if installing)
+- USB drive with at least 8 GB of storage (for live usage)
+
+### Download
+
+Download the latest version of Brunhild-OS from the [official website](https://www.brunhild-os.org) or the [releases page](https://github.com/yourusername/brunhild-os/releases).
+
+### Installation Steps
+
+1. **Create a Bootable USB Drive:**
+   - Use a tool like [Rufus](https://rufus.ie/) (Windows) or `dd` (Linux) to create a bootable USB drive.
+   
+   ```bash
+   sudo dd if=path_to_brunhild-os.iso of=/dev/sdX bs=4M
+   ```
+
+2. **Boot from USB:**
+   - Restart your computer and boot from the USB drive.
+
+3. **Follow the On-Screen Instructions:**
+   - The live environment will allow you to try Brunhild-OS without installing it. If you choose to install, the process will guide you through the necessary steps to install Brunhild-OS on your system.
+
+### Post-Installation
+
+After installing Brunhild-OS, you might want to update the system to ensure all packages are up to date:
+
+```bash
+sudo pacman -Syu
 ```
 
-Hephaestus can be run by using the following parameters:
-```
-systemctl start --user podman
-podman run \
-    -ti \
-    --rm \
-    --secret key-sec \
-    --secret ssh-sec \
-    --ulimit nofile=1024:524288 \ # Fix fakeroot hanging
-    --userns=keep-id \ # Prevent to set root as owner of mounted volume directories
-    -v "$HOME/output:/build/output" \ # Set the target directory to store packages
-    -v "$HOME/keydir:/build/keydir" \ # Set the target directory to retrieve the signing key from the host
-    -e GPG_SEC=$(key-sec) \ # Set the signing key secret object
-    -e SSH_SEC=$(ssh-sec) \ # Set the SSH repository server secret object
-    -e REPOSITORY_SERVER=username@server.com:/path/to/dir// \ # Set the target repository server
-    -e PRE_EXEC="ls -la /build" \ # Pre-build command
-    -e POST_EXEC="ls -la /build/output" # Post-build command
-    docker.io/athenaos/hephaestus -a -d -r -s -x
-```
+## Usage
+
+### Getting Started
+
+1. **First Boot:**
+   - On the first boot, Brunhild-OS will automatically configure itself to route all traffic through the Tor network.
+
+2. **Accessing Tools:**
+   - Access the pre-installed penetration testing tools from the main menu.
+   
+3. **Using GPT-2:**
+   - Run GPT-2 for natural language processing tasks directly from the terminal or through pre-configured scripts.
+
+4. **Updating Tools:**
+   - Keep your tools up to date by running the update script:
+   
+   ```bash
+   sudo brunhild-update
+   ```
+
+### Example Commands
+
+- **Launching a Network Scan:**
+  
+  ```bash
+  nmap -sS -A target_ip_address
+  ```
+
+- **Checking Tor Status:**
+
+  ```bash
+  sudo systemctl status tor
+  ```
+
+- **Using GPT-2:**
+
+  ```python
+  python3 -m brunhild-gpt2 --text "Input text for GPT-2"
+  ```
+
+## Screenshots
+
+![Screenshot 1](path_to_screenshot1)
+![Screenshot 2](path_to_screenshot2)
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
