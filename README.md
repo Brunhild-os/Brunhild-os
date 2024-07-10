@@ -128,5 +128,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 ## in memory of my pet albino red-eye pleco 
                     augusto
-              ## ?/??/2024-7/9/24
-              ##       rip
+   ## ?/??/2024-7/9/2
+   ##       rip
