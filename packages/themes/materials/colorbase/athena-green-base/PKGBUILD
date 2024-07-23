@@ -1,0 +1,27 @@
+pkgname=athena-green-base
+pkgver=7.2d74a76
+pkgrel=1
+pkgdesc="Green colorbase resources."
+arch=('any')
+license=("GPL3")
+makedepends=('git')
+install='green.install'
+source=("git+https://github.com/Athena-OS/athena-green-base")
+sha512sums=('SKIP')
+
+pkgver() {
+  cd $pkgname
+
+  echo $(git rev-list --count HEAD).$(git rev-parse --short HEAD)
+}
+
+package() {
+  cd athena-green-base
+
+  install -dm 755 "$pkgdir/usr/share/athena-green-base"
+  install -dm 755 "$pkgdir/usr/share/backgrounds/athena"
+  install -Dm 644 "hackthebox.png" "$pkgdir/usr/share/backgrounds/athena/"
+
+  cp -a "icons/apps" "$pkgdir/usr/share/athena-green-base/"
+  cp -a "icons/categories" "$pkgdir/usr/share/athena-green-base/"
+}

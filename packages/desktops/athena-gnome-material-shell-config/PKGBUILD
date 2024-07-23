@@ -1,0 +1,18 @@
+pkgname=athena-gnome-material-shell-config
+pkgver=1.0.0
+pkgrel=4
+pkgdesc="GNOME Material Shell configuration for Athena."
+arch=('any')
+license=("custom")
+depends=('athena-gnome-base' 'malcontent' 'gnome-shell-extension-appindicator-git' 'gnome-shell-extension-fly-pie-git' 'gnome-shell-extension-material-shell-git')
+conflicts=('athena-gnome-config')
+source=("$pkgname.tar.gz")
+sha512sums=('1dfd386d5517556f2225a462e859e3de8c484c4bd6435f3156065156969787a512e07ec42dd4b3a0e8a034f14c222bb64bc7b19bf13498093fbc52705236155f')
+
+package() {
+  mkdir -p "${pkgdir}/etc"
+  mkdir -m 750 -p "${pkgdir}/etc/sudoers.d"
+  mkdir -p "${pkgdir}/usr/share/athena-gnome-config"
+
+  cp -rf "${srcdir}"/usr/share/athena-gnome-config/* "${pkgdir}/usr/share/athena-gnome-config/"
+}
